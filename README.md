@@ -1,8 +1,27 @@
 # Keep Moving Fitness Platform
 
-A cross-platform fitness and community app.  
-**Phase 1:** Web (Next.js) MVP.  
+A cross-platform fitness and community app.
+**Phase 1:** Web (Next.js) MVP.
 **Future:** Native iOS + Android (Expo/React Native) using the same UI + API layers.
+
+## Quick Start
+
+Launch the web app and API locally:
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   python -m venv .venv && source .venv/bin/activate
+   pip install -e services/api
+   ```
+2. **Start the Next.js web app**
+   ```bash
+   npm run dev --workspace @keep-moving/web
+   ```
+3. **Start the FastAPI backend**
+   ```bash
+   uvicorn app.main:app --reload
+   ```
 
 ---
 
