@@ -1,11 +1,3 @@
-# KeepMoving
-Keep Moving mobile fitness app
-
-Got it ✅ — here’s a full regenerated README.md with the Media section integrated. You can copy-paste this straight into your repo or Google Drive.
-
-⸻
-
-
 # Keep Moving Fitness Platform
 
 A cross-platform fitness and community app.  
